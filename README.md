@@ -1,10 +1,10 @@
-PhantomJS startup script (NEED Selenium Grid)
+PhantomJS startup script ~~(NEED Selenium Grid)~~
 ======================================================
 
-This is a simple startup script based on the selenium startup script.
+~~This is a simple startup script based on the selenium startup script.~~
 
-This startup script assumes you have selenium server 2.x installed with startup script from feniix (https://github.com/feniix/selenium-grid-startup).
-also assumes you have the pkg `daemon` installed and a java runtime installed (this was tested in ubuntu 10.04.4 with `openjdk-6-jdk`)
+~~This startup script assumes you have selenium server 2.x installed with startup script from feniix (https://github.com/feniix/selenium-grid-startup).~~
+also assumes you have the pkg `daemon` installed and a java runtime installed (this was tested in ubuntu ~~10.04.4~~ 16.04 with `openjdk-6-jdk`)
 
 Install PhantomJS:
 
