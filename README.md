@@ -44,19 +44,20 @@ Make sure the init.d script is executable:
 Install the service startup:
 
     sudo update-rc.d phantomjs defaults
-   
-Change the Selenium Grid port to 5555.
 
-	nano -w /etc/default/selenium
 
-Find and change the the line to:
+~~Change the Selenium Grid port to 5555.~~
 
-	# SELENIUM_PORT=5555
-	SELENIUM_PORT=4444
+	~~nano -w /etc/default/selenium~~
 
-Start the selenium:
+~~Find and change the the line to:~~
 
-    sudo /etc/init.d/selenium start
+	~~# SELENIUM_PORT=5555~~
+	~~SELENIUM_PORT=4444~~
+
+~~Start the selenium:~~
+
+    ~~sudo /etc/init.d/selenium start~~
 
 Start the phantomjs:
 
