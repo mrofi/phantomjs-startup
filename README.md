@@ -65,3 +65,5 @@ Copyright and license
 Copyright 2013-2014 Alexey Zhokhov under the [Apache License, Version 2.0](LICENSE). Supported by [Polusharie][polusharie].
 
 [polusharie]: http://www.polusharie.com
+
+Modified by Mokhamad ROfiudin @ 2017. For more info email : mokh[at]rofiudin.com
