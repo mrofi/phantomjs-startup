@@ -12,9 +12,6 @@ PHANTOMJS_USER=phantomjs
 
 PHANTOMJS_LOG=/var/log/phantomjs/$NAME.log
 
-WEBDRIVER_PORT=5555
+WEBDRIVER_PORT=8910
 
-#SELENIUM_HUB="http://127.0.0.1:4444"
-
-#PHANTOMJS_ARGS="--webdriver=${WEBDRIVER_PORT} --webdriver-selenium-grid-hub=${SELENIUM_HUB}"
 PHANTOMJS_ARGS="--webdriver=${WEBDRIVER_PORT}"
