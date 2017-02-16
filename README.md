@@ -7,11 +7,21 @@ PhantomJS startup script ~~(NEED Selenium Grid)~~
 also assumes you have the pkg `daemon` installed and a java runtime installed (this was tested in ubuntu ~~10.04.4~~ 16.04 with `openjdk-6-jdk`)
 
 Install PhantomJS:
-
-	sudo add-apt-repository ppa:pcarrier/ppa
-	sudo apt-get update
-	sudo apt-get phantomjs
-
+```
+1. Download for linux 
+	# for 64 bit
+	https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
+	# for 32 bit
+	https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-i686.tar.bz2
+2. Extract
+	tar xvjf phantomjs-2.1.1-linux-xxxxxxx.tar.bz2
+3. Copy bin to system
+	sudo cp ./phantomjs-2.1.1-linux-xxxxxx/bin/phantomjs /usr/bin/
+	sudo chmod +x /usr/bin/phantomjs
+4. Check instalation 
+	phantomjs -v
+	
+```
 and the following already created in your linux box:
 
 id: phantomjs
