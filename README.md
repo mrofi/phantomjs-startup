@@ -1,10 +1,5 @@
-PhantomJS startup script ~~(NEED Selenium Grid)~~
+PhantomJS startup script
 ======================================================
-
-~~This is a simple startup script based on the selenium startup script.~~
-
-~~This startup script assumes you have selenium server 2.x installed with startup script from feniix (https://github.com/feniix/selenium-grid-startup).~~
-also assumes you have the pkg `daemon` installed and a java runtime installed (this was tested in ubuntu ~~10.04.4~~ 16.04 with `openjdk-6-jdk`)
 
 Install PhantomJS:
 ```
@@ -23,11 +18,8 @@ Install PhantomJS:
 	
 ```
 and the following already created in your linux box:
-
 id: phantomjs
-
 home: /var/lib/phantomjs
-
 shell: /bin/bash
 
 phantomjs installation directory: /var/lib/phantomjs
@@ -54,20 +46,6 @@ Make sure the init.d script is executable:
 Install the service startup:
 
     sudo update-rc.d phantomjs defaults
-
-
-~~Change the Selenium Grid port to 5555.~~
-
-	~~nano -w /etc/default/selenium~~
-
-~~Find and change the the line to:~~
-
-	~~# SELENIUM_PORT=5555~~
-	~~SELENIUM_PORT=4444~~
-
-~~Start the selenium:~~
-
-    ~~sudo /etc/init.d/selenium start~~
 
 Start the phantomjs:
 
